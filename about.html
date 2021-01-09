@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- this scales the content to display nicely on mobiles/tablets -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Project Demo - About</title>
+
+    <!-- Bootstrap and FontAwesome cdn links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- our custom styles -->
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+
+  <body>
+    <!-- ==== NAV BAR (BOOTSTRAP) ===== -->
+    <!-- use the "fixed-top" bootstrap class to fix the nav bar to the top of page.
+         BUT, remember to add enough padding to the top of the <body> -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="./index.html">Project Demo</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- ==== END NAV BAR ===== -->
+
+    <main>
+
+      <!-- ==== linking button back to home page demo ==== -->
+      <div class="container">
+        <h1>ABOUT PAGE</h1>
+        <a class="btn btn-primary" href="./index.html" role="button">click to go back to home page</a>
+      </div>
+
+    </main>
+
+    <footer>
+      <!-- ==== social icons ==== -->
+      <a href="https://twitter.com" target="_blank">
+        <span class='social-icon'><i class="fab fa-twitter"></i></span>
+      </a>
+      <a href="https://facebook.com" target="_blank">
+        <span class='social-icon'><i class="fab fa-facebook-f"></i></span>
+      </a>
+      <a href="https://instagram.com" target="_blank">
+        <span class='social-icon'><i class="fab fa-instagram"></i></span>
+      </a>
+    </footer>
+
+    <!-- ==== button that scrolls window to the top ==== -->
+    <button class="btn btn-primary" onclick="topFunction()" id="go-top-button" title="Go to top">Top</button>
+
+    <!-- Bootstrap needs the these 3 javascript links for things like carousel and modals to work properly
+         we also need jQuery for the code for the "scroll to the top" code in scripts.js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- our custom javascript -->
+    <script src="./js/scripts.js"></script>
+  </body>
+
+</html>

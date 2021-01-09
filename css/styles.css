@@ -1,0 +1,93 @@
+body {
+  display: flex;  /* setting "display: flex" allows its children (e.g. "main" below) to use the "flex" property */
+  flex-direction: column;
+  padding-top: 56px;  /* allow enough space for a fixed navbar (56px is the height of the navbar here) */
+  min-height: 100vh;  /* i.e minimum width is 100% of the "viewport height"... i.e the full screen height */
+}
+
+main {
+  flex: 1;  /* makes the <main> grow (we want it to grow so that it pushes <footer> to the bottom of page)*/
+}
+
+#carouselExampleIndicators img {
+  width: 100%;  /* fit the image within the div */
+  /* FANCY ADVANCED CSS - calc():
+         calculates the height of the full page (100vh)
+         minus the height of the navbar (56px)
+         minus the height of the second-navbar (50px)
+    allocates this height to the carousel images, so that the carousel, navbar, and second-navbar can all fit on the page (regardless of screen size)
+ */
+  height: calc(100vh - 56px - 50px);
+  object-fit: cover;  /* "object-fit" property has various options for fitting an image within a specified space (works because both the img width and height are specified) */
+}
+
+#second-navbar {
+  background-color: #dde;
+  display: flex;  /* unlocks "flex" property for its children (<a> tags) */
+}
+#second-navbar a {
+  height: 50px;
+  flex: 1;  /* all of these <a> elements will "grow" an equal amount (so they all have an equal width) */
+  display: flex;  /* allows use of "justify-content" and "align-items" properties */
+  justify-content: center;  /* horizontally centers the contents (the text within) */
+  align-items: center; /* vertically centers the contents (the text within) */
+}
+#second-navbar a:hover {
+  background-color: rgba(0, 0, 0, 0.1);  /* change color when hover over the link */
+}
+
+.container {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+hr {
+  /* add some fancy styling to the horizontal lines */
+  width: 75%;
+  border: 1.5px solid #ddd;
+  border-radius: 50%;
+}
+
+#meet-the-team img{
+  width: 100%;  /* fit the image within the div */
+  margin: 15px 0;
+}
+
+footer {
+  display: flex;  /* allows use of "justify-content" property */
+  justify-content: center;  /* horizontally centers the contents (the social icons) */
+  background-color: #666;
+  height: 100px;
+  padding: 20px;
+}
+
+footer a {
+  margin: 5px;
+  text-decoration: none!important;
+}
+
+.social-icon {
+  display: inline-flex;  /* allows use of "justify-content" and "align-items" properties */
+  width: 50px;
+  height: 50px;
+  color: #666;
+  background-color: white;
+  justify-content: center;  /* horizontally centers the contents (the FontAwesome icon) */
+  align-items: center;  /* vertically centers the contents (the FontAwesome icon) */
+  border-radius: 50%;  /* makes it round (circle if width and height are the same) */
+}
+
+.social-icon:hover {
+  color: #222;  /* change color when hover over the link */
+}
+
+#go-top-button {
+  width: 50px;
+  height: 50px;
+  display: none;  /* Hidden by default */
+  position: fixed;  /* Fixed/sticky position */
+  bottom: 20px;  /* Place the button 20px from the bottom of the page */
+  right: 30px;  /* Place the button 30px from the right */
+  z-index: 99;  /* Make sure it does not overlap */
+  border-radius: 50%;  /* makes it round (circle if width and height are the same) */
+}
