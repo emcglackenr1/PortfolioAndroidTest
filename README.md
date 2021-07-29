@@ -69,9 +69,9 @@ The design included a responsive navigation bar, page images and text layout so 
   <img src="https://user-images.githubusercontent.com/64873698/127563141-e100139f-0aa8-470d-b679-a1718f8f938f.JPG" width="400"  alt="Images Smaller Screen1"></p>
   <p align="center">
   <img src="https://user-images.githubusercontent.com/64873698/127563156-3846b48b-54b2-4fdb-aaa7-46757364fd3a.JPG" width="400"  alt="Images Smaller Screen2"></p>
- <h3>Android layout </h3>
+ <h3>Mobile layout </h3>
   <p align="center">
-  <img src="https://user-images.githubusercontent.com/64873698/127563160-9972e673-d800-4708-9a62-2bffa3d1784a.JPG" width="200"  alt="Images Android"></p>
+  <img src="https://user-images.githubusercontent.com/64873698/127563160-9972e673-d800-4708-9a62-2bffa3d1784a.JPG" width="200"  alt="Images Mobile"></p>
 </p>
   
 
@@ -84,9 +84,9 @@ The design included a responsive navigation bar, page images and text layout so 
   <img src="https://user-images.githubusercontent.com/64873698/127563515-c4f0c90d-a3af-4308-9342-39b81ac8ab8a.JPG" width="400"  alt="Text Smaller Screen1"></p>
   <p align="center">
   <img src="https://user-images.githubusercontent.com/64873698/127563518-84f649b3-0ac1-4794-8b06-c55c4b3f8843.JPG" width="400"  alt="Text Smaller Screen2"></p>
- <h3>Android layout </h3>
+ <h3>Mobile layout </h3>
   <p align="center">
-  <img src="https://user-images.githubusercontent.com/64873698/127563520-eaa3f4b1-82e5-474c-ae4f-2747c9a3dad7.JPG" width="200"  alt="Text Android"></p>
+  <img src="https://user-images.githubusercontent.com/64873698/127563520-eaa3f4b1-82e5-474c-ae4f-2747c9a3dad7.JPG" width="200"  alt="Text Mobile"></p>
 </p>  
  
  
