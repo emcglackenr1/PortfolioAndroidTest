@@ -9,7 +9,7 @@
 
 <h1> Portfolio Mobile Test </h1>
 <p>
-This repository aimed to test the responsiveness of a portfolio website layout. I did this using techniques and sources from my CodeFirst Web Development course. 
+This project, made in 2019, aimed to test the responsiveness of a portfolio website layout. I did this using techniques and sources from my CodeFirst Web Development course. 
 The design included a responsive navigation bar, page images and text layout so that it adjusts for desktop, tablet and mobile screens.
 
 <b>Available to view at: https://emcglackenr1.github.io/PortfolioAndroidTest/ <b>
