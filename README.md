@@ -45,11 +45,12 @@ The design included a responsive navigation bar, page images and text layout so 
  
   <h3>Mobile Version</h3>
  <p>This design utilises the popular 'hamburger menu' method, where the navigation bar collapses into the symbol below. It is a familiar icon in modern web design, and therefore  user friendly. </p>
- <p> When clicked the 'hamburger menu' expands to reveal the navigation links.</p>
 
   
   <p align="center">
   <img src="https://user-images.githubusercontent.com/64873698/127562844-72108acb-76f3-4b5f-a606-964a4b15009c.JPG" width="400"  alt="Navbar on mobile"></p>
+ 
+ <p> When clicked the 'hamburger menu' expands to reveal the navigation links.</p>
  
   <p align="center">
   <img src="https://user-images.githubusercontent.com/64873698/127562852-5a71d20a-2aa1-4b2d-8c5e-0c36f2c25aa8.JPG" width="400"  alt="Navbar on mobile expanded">
